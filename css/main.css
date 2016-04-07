@@ -1,0 +1,262 @@
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  html.js .loader .loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
+body {
+  font-family: "GothamBook", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #fff;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 108px;
+  padding-right: 108px; }
+
+h1, h2 {
+  color: #323232;
+  font-family: "GothamLight", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center; }
+
+h2, h3 {
+  color: #fff; }
+
+h3 {
+  font-family: "GothamBold", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.hidden {
+  display: none; }
+
+.top-line {
+  background: #323232;
+  font-family: "GothamBook", "Helvetica Neue", sans-serif;
+  padding: 40px 0 24px; }
+
+.main-nav {
+  margin-top: 84px; }
+  .main-nav li {
+    display: inline-block;
+    margin-right: 20px; }
+    .main-nav li a {
+      font-family: "GothamLight", "Helvetica Neue", sans-serif;
+      color: #fff;
+      font-size: 14px;
+      line-height: 13px;
+      text-transform: uppercase;
+      word-spacing: 2px; }
+    .main-nav li.active a {
+      color: #a7d16b; }
+
+.bottom-line {
+  background: url("../img/header-img.jpg") no-repeat center;
+  background-size: cover; }
+
+.bottom-line_bcg {
+  background: url("../img/bcg2.svg") no-repeat center;
+  background-size: cover;
+  height: 488px; }
+
+.line-description {
+  padding: 58px 57px 57px 51px; }
+  .line-description li {
+    font-family: "GothamLight", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    color: #323232; }
+  .line-description li:nth-child(1) {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -2px; }
+  .line-description li:nth-child(2) {
+    font-family: "GothamBold", "Helvetica Neue", sans-serif;
+    font-size: 101px;
+    line-height: 91px;
+    letter-spacing: -4px; }
+  .line-description li:nth-child(3) {
+    font-family: "GothamBold", "Helvetica Neue", sans-serif;
+    font-size: 46px;
+    line-height: 48px;
+    letter-spacing: -2px; }
+  .line-description li:nth-child(4) {
+    font-size: 24px;
+    line-height: 31px; }
+
+.hr {
+  width: 174px;
+  height: 2px;
+  background-color: #a7d16b;
+  margin: 13px auto 22px; }
+
+.descr-text {
+  width: 56%;
+  float: left;
+  text-align: justify;
+  margin-right: 10%;
+  margin-top: 4px;
+  margin-left: 7px; }
+  .descr-text p {
+    color: #8f8f8f;
+    font-family: "GothamBook", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19px; }
+
+.descr-img {
+  float: left;
+  padding: 63px 0 0 0; }
+
+.top {
+  margin-bottom: -7px; }
+  .top img {
+    width: 100%; }
+
+.bottom {
+  margin-top: -1px; }
+  .bottom img {
+    width: 100%; }
+
+.center {
+  background-color: #a7d16b;
+  overflow: hidden;
+  padding: 0px 40px 20px; }
+  .center > div {
+    text-align: center; }
+  .center h2 {
+    margin: 22px 0 51px; }
+
+.center-item {
+  float: left;
+  width: 20%;
+  padding: 0 25px; }
+  .center-item:first-child {
+    padding-left: 50px; }
+  .center-item p {
+    text-align: justify;
+    font-size: 11px;
+    margin: 25px 0 30px;
+    line-height: 13px; }
+  .center-item h3 {
+    margin-bottom: 30px; }
+
+.solutions {
+  background: url(../img/center-bottom.svg) no-repeat bottom center;
+  margin-top: 10px; }
+
+.section-bottom {
+  background: #323232;
+  padding: 45px 0 85px; }
+
+.footer-line {
+  background: #231f20; }
+
+.footer-line-row {
+  margin: 20px 50px; }
+
+.footer-line-descr {
+  overflow: hidden;
+  padding-top: 40px; }
+
+.footer-line-text {
+  font-family: "GothamBook", "Helvetica Neue", sans-serif;
+  text-align: justify;
+  padding: 12px 35px; }
+  .footer-line-text span {
+    color: #a7d16b;
+    font-weight: 700; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.footer-line-nav {
+  padding: 25px 0 0 25px; }
+  .footer-line-nav li {
+    white-space: nowrap;
+    text-transform: uppercase; }
+    .footer-line-nav li a {
+      font-size: 12px;
+      font-family: "GothamLight", "Helvetica Neue", sans-serif;
+      color: #fff;
+      line-height: 30px; }
+
+.footer-line-contacts {
+  border-right: solid 2px #a7d16b;
+  border-left: solid 2px #a7d16b;
+  padding: 25px; }
+  .footer-line-contacts > div, .footer-line-contacts a {
+    font-size: 12px;
+    font-family: "GothamBook", "Helvetica Neue", sans-serif;
+    color: #fff; }
+
+.footer-line-row h4 {
+  color: #a7d16b;
+  font-family: "GothamBold", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.footer-about {
+  background: #fff; }
+  .footer-about span {
+    color: #231f20;
+    font-family: "GothamLight", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 25px 0 50px; }
+
+.owl-dots {
+  text-align: center; }
+  .owl-dots .owl-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 30px;
+    opacity: 0.2;
+    background-color: #323232;
+    display: inline-block; }
+    .owl-dots .owl-dot.active {
+      background-color: #a7d16b;
+      opacity: 1; }
+
+/*# sourceMappingURL=main.css.map */
